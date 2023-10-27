@@ -7,18 +7,18 @@
     list-style: none;
     scroll-behavior: smooth;
 }
-:root{
-    --bg-color: #333333; /* Dark charcoal gray */
-    --gradient-color-bg: linear-gradient(
-        180deg, #333333 26.71%, #333333 99.36%);
-    --main-color: #FCA61F;
-    --font-color: #eedfdf;
-    --hover-box-shadow: rgba(124, 109, 109, 0.19) 0px 10px 20px,
-                       rgba(185, 164, 164, 0.23) 0px 6px 6px;     
-    --gradient-white-bg2: #788097;                                                          
-}   
- 
 
+:root{
+    --bg-color:black;
+    /* --gradient-white-bg:rgb(36, 33, 33); */
+    --gradient-color-bg:linear-gradient(
+        180deg, #fdc50f 26.71%, #fdc50f 99.36%);
+    --main-color:#FCA61F;
+    --font-color:#eedfdf;
+    --hover-box-shadow:rgba(124, 109, 109, 0.19)0px 10px 20px,
+                       rgba(185, 164, 164, 0.23)0px 6px 6px;     
+    --gradient-white-bg2:#788097;                                                          
+}
 
 a{
     text-decoration: none;
@@ -146,7 +146,7 @@ section{
     grid-template-columns: repeat(2,1fr);
     align-items: center;
     grid-gap: 4em;
-    background: rgba(0, 0, 0, 0.138)
+    background: black
 }
 
 .hero-info{
@@ -920,7 +920,7 @@ form .btn{
 .outer-circle svg circle{
     fill: none;
     stroke-width: 15px;
-    stroke: rgba(0, 0, 0, 0.683);
+    stroke: #FCA61F;
     stroke-linecap: round;
     stroke-dasharray: 465;
     stroke-dashoffset: 464; 
